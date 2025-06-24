@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.502" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-06-24T20:27:18" tests="0" file="cypress\e2e\TestCy.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Prueba b�sica con Cypress" timestamp="2025-06-24T20:27:18" tests="2" time="7.491" failures="1">
+    <testcase name="Prueba b�sica con Cypress Visita la p�gina y verifica el t�tulo" time="0.786" classname="Visita la p�gina y verifica el t�tulo">
+    </testcase>
+    <testcase name="Prueba b�sica con Cypress Interact�a con un bot�n" time="0.000" classname="Interact�a con un bot�n">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;button.btn.btn-lg.btn-danger.action-btn&gt;&apos; to have class &apos;clicked&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.btn.btn-lg.btn-danger.action-btn>' to have class 'clicked'
+    at Context.eval (webpack://cypressautomation/./cypress/e2e/TestCy.cy.js:10:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
